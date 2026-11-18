@@ -1,0 +1,914 @@
+{
+  "answers": [
+    {
+      "answer": {
+        "matched": 1,
+        "plan": {
+          "access": "scan",
+          "candidates": 50,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 4
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 6,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          }
+        ],
+        "scanned": 50,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "watermark",
+        "snapshot_isolation"
+      ],
+      "label": "",
+      "note": "pinned reader still sees pre-wave value",
+      "request": {
+        "relation": "spectra",
+        "transaction": "reader",
+        "where": [
+          {
+            "column": "sample",
+            "op": "=",
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 10,
+        "plan": {
+          "access": "index",
+          "candidates": 10,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 8
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 1000,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 1001,
+            "band": "delta",
+            "code": "c01",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 903,
+            "band": "beta",
+            "code": null,
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 904,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": 905,
+            "band": "beta",
+            "code": "c04",
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 906,
+            "band": "beta",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 907,
+            "band": "gamma",
+            "code": null,
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 908,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 909,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 910,
+            "band": "beta",
+            "code": "c02",
+            "sample": 10,
+            "valid": true
+          }
+        ],
+        "scanned": 10,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "watermark",
+        "low_selectivity"
+      ],
+      "label": "",
+      "note": "head sees post-wave values",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "queryable": false,
+        "status": "snapshot"
+      },
+      "dims": [
+        "watermark",
+        "unqueryable"
+      ],
+      "label": "",
+      "note": "snapshot below watermark must be unavailable",
+      "request": {
+        "at": 1,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 10,
+        "plan": {
+          "access": "index",
+          "candidates": 10,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 9
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 1000,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 1001,
+            "band": "delta",
+            "code": "c01",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 903,
+            "band": "beta",
+            "code": null,
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 904,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": 905,
+            "band": "beta",
+            "code": "c04",
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 906,
+            "band": "beta",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 907,
+            "band": "gamma",
+            "code": null,
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 908,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 909,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 910,
+            "band": "beta",
+            "code": "c02",
+            "sample": 10,
+            "valid": true
+          }
+        ],
+        "scanned": 10,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "watermark",
+        "plan_fact"
+      ],
+      "label": "",
+      "note": "head query after retention and index rebuild",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 0,
+        "plan": {
+          "access": "scan",
+          "candidates": 48,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 9
+        },
+        "queryable": true,
+        "rows": [],
+        "scanned": 48,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "tombstone"
+      ],
+      "label": "",
+      "note": "tombstoned key absent at head",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "sample",
+            "op": "=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 39,
+        "plan": {
+          "access": "scan",
+          "candidates": 48,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 9
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 1000,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 1001,
+            "band": "delta",
+            "code": "c01",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 903,
+            "band": "beta",
+            "code": null,
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 904,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": 905,
+            "band": "beta",
+            "code": "c04",
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 906,
+            "band": "beta",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 907,
+            "band": "gamma",
+            "code": null,
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 908,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 909,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 910,
+            "band": "beta",
+            "code": "c02",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "beta",
+            "code": "c02",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 67,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 12,
+            "valid": false
+          },
+          {
+            "amplitude": 23,
+            "band": "delta",
+            "code": "c03",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 14,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 15,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 97,
+            "band": "delta",
+            "code": "c04",
+            "sample": 17,
+            "valid": false
+          },
+          {
+            "amplitude": 95,
+            "band": "gamma",
+            "code": null,
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 32,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 42,
+            "band": "alpha",
+            "code": null,
+            "sample": 20,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": null,
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 15,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 95,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": 84,
+            "band": "beta",
+            "code": "c04",
+            "sample": 25,
+            "valid": false
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 26,
+            "valid": true
+          },
+          {
+            "amplitude": 66,
+            "band": "delta",
+            "code": "c02",
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": 46,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 40,
+            "band": "delta",
+            "code": null,
+            "sample": 29,
+            "valid": false
+          },
+          {
+            "amplitude": 47,
+            "band": "beta",
+            "code": null,
+            "sample": 30,
+            "valid": true
+          },
+          {
+            "amplitude": 37,
+            "band": "beta",
+            "code": "c03",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 47,
+            "band": "beta",
+            "code": "c02",
+            "sample": 32,
+            "valid": true
+          },
+          {
+            "amplitude": 100,
+            "band": "beta",
+            "code": null,
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 53,
+            "band": "beta",
+            "code": "c01",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": 55,
+            "band": "delta",
+            "code": "c04",
+            "sample": 35,
+            "valid": false
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": null,
+            "sample": 36,
+            "valid": true
+          },
+          {
+            "amplitude": 95,
+            "band": "beta",
+            "code": "c03",
+            "sample": 37,
+            "valid": false
+          },
+          {
+            "amplitude": 99,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "beta",
+            "code": "c01",
+            "sample": 39,
+            "valid": true
+          }
+        ],
+        "scanned": 48,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "tombstone",
+        "low_selectivity",
+        "plan_fact"
+      ],
+      "label": "",
+      "note": "wide range exposes tombstone resurrection",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "sample",
+            "op": "<=",
+            "value": 41
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 39,
+        "plan": {
+          "access": "scan",
+          "candidates": 48,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 9
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "count": 39
+          }
+        ],
+        "scanned": 48,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "tombstone",
+        "aggregate"
+      ],
+      "label": "",
+      "note": "count over range containing tombstoned keys",
+      "request": {
+        "aggregate": {
+          "column": "*",
+          "function": "count"
+        },
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "sample",
+            "op": "<=",
+            "value": 41
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "queryable": false,
+        "status": "snapshot"
+      },
+      "dims": [
+        "watermark",
+        "restart",
+        "unqueryable"
+      ],
+      "label": "",
+      "note": "410 survives restart (watermark durable)",
+      "request": {
+        "at": 1,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 10,
+        "plan": {
+          "access": "index",
+          "candidates": 10,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 9
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 1000,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 1001,
+            "band": "delta",
+            "code": "c01",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 903,
+            "band": "beta",
+            "code": null,
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 904,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": 905,
+            "band": "beta",
+            "code": "c04",
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 906,
+            "band": "beta",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 907,
+            "band": "gamma",
+            "code": null,
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 908,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 909,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 910,
+            "band": "beta",
+            "code": "c02",
+            "sample": 10,
+            "valid": true
+          }
+        ],
+        "scanned": 10,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "watermark",
+        "restart"
+      ],
+      "label": "",
+      "note": "head survives restart",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    }
+  ],
+  "commit_outcomes": [
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 2
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 3
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 5
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 6
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 7
+    }
+  ],
+  "family": "f4_watermark",
+  "final_stats": {
+    "active": [],
+    "horizon": 8,
+    "index_entries": {
+      "by_amplitude": 43
+    },
+    "keys": 48,
+    "sequence": 9,
+    "versions": 48
+  },
+  "head_horizon": 8,
+  "head_sequence": 9,
+  "provenance": {
+    "derived_by": "corpus/tools/reference_model.py",
+    "independence": "no laminad binary, no run observations consulted",
+    "source_script": "main.script.json"
+  },
+  "scenario": "f4_watermark/main",
+  "sql_answers": [],
+  "stats_facts": [
+    {
+      "label": "seed_head",
+      "stats": {
+        "active": [],
+        "horizon": 0,
+        "index_entries": {
+          "by_amplitude": 43
+        },
+        "keys": 50,
+        "sequence": 4,
+        "versions": 50
+      }
+    },
+    {
+      "label": "pre_vacuum",
+      "stats": {
+        "active": [
+          "reader"
+        ],
+        "horizon": 0,
+        "index_entries": {
+          "by_amplitude": 55
+        },
+        "keys": 50,
+        "sequence": 7,
+        "versions": 64
+      }
+    },
+    {
+      "label": "post_vacuum",
+      "stats": {
+        "active": [],
+        "horizon": 8,
+        "index_entries": {
+          "by_amplitude": 43
+        },
+        "keys": 48,
+        "sequence": 9,
+        "versions": 48
+      }
+    },
+    {
+      "label": "after_restart",
+      "stats": {
+        "active": [],
+        "horizon": 8,
+        "index_entries": {
+          "by_amplitude": 43
+        },
+        "keys": 48,
+        "sequence": 9,
+        "versions": 48
+      }
+    }
+  ],
+  "vacuum_facts": [
+    {
+      "label": "pinned_vacuum",
+      "result": {
+        "horizon": 4,
+        "pinned": true,
+        "removed": 0,
+        "retained": 64
+      }
+    },
+    {
+      "label": "advancing_vacuum",
+      "result": {
+        "horizon": 8,
+        "pinned": false,
+        "removed": 16,
+        "retained": 48
+      }
+    }
+  ]
+}

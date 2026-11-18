@@ -1,0 +1,47 @@
+{
+  "all_ok": true,
+  "reports": [
+    {
+      "mismatches": [],
+      "ok": true,
+      "queries_checked": 7,
+      "scenario": "f3_high_dup/main",
+      "sql_checked": 0
+    },
+    {
+      "mismatches": [],
+      "ok": true,
+      "queries_checked": 7,
+      "scenario": "f0_smoke/main",
+      "sql_checked": 3
+    },
+    {
+      "mismatches": [],
+      "ok": true,
+      "queries_checked": 9,
+      "scenario": "f4_watermark/main",
+      "sql_checked": 0
+    },
+    {
+      "mismatches": [],
+      "ok": true,
+      "queries_checked": 11,
+      "scenario": "f2_low_selectivity/main",
+      "sql_checked": 0
+    },
+    {
+      "mismatches": [],
+      "ok": true,
+      "queries_checked": 7,
+      "scenario": "f1_drift_pair/a",
+      "sql_checked": 0
+    },
+    {
+      "mismatches": [],
+      "ok": true,
+      "queries_checked": 7,
+      "scenario": "f1_drift_pair/b",
+      "sql_checked": 0
+    }
+  ]
+}

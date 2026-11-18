@@ -1,0 +1,1118 @@
+{
+  "family": "f4_watermark",
+  "generation": {
+    "deleted_keys": 2,
+    "keys": 50,
+    "updated_keys": 10
+  },
+  "kind": "main",
+  "operations": [
+    {
+      "op": "create_relation",
+      "spec": {
+        "columns": [
+          {
+            "name": "sample",
+            "type": "int"
+          },
+          {
+            "name": "band",
+            "type": "text"
+          },
+          {
+            "name": "amplitude",
+            "nullable": true,
+            "type": "int"
+          },
+          {
+            "name": "valid",
+            "type": "bool"
+          },
+          {
+            "name": "code",
+            "nullable": true,
+            "type": "text"
+          }
+        ],
+        "name": "spectra",
+        "primary": "sample"
+      }
+    },
+    {
+      "op": "begin",
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 6,
+        "band": "alpha",
+        "code": "c02",
+        "sample": 1,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 86,
+        "band": "delta",
+        "code": "c01",
+        "sample": 2,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": null,
+        "band": "beta",
+        "code": null,
+        "sample": 3,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": null,
+        "band": "gamma",
+        "code": "c03",
+        "sample": 4,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 4,
+        "band": "beta",
+        "code": "c04",
+        "sample": 5,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 62,
+        "band": "beta",
+        "code": "c04",
+        "sample": 6,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 2,
+        "band": "gamma",
+        "code": null,
+        "sample": 7,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 20,
+        "band": "gamma",
+        "code": "c04",
+        "sample": 8,
+        "valid": false
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 56,
+        "band": "gamma",
+        "code": "c03",
+        "sample": 9,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 17,
+        "band": "beta",
+        "code": "c02",
+        "sample": 10,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 78,
+        "band": "beta",
+        "code": "c02",
+        "sample": 11,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 67,
+        "band": "alpha",
+        "code": "c01",
+        "sample": 12,
+        "valid": false
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 23,
+        "band": "delta",
+        "code": "c03",
+        "sample": 13,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": null,
+        "band": "gamma",
+        "code": "c03",
+        "sample": 14,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": null,
+        "band": "gamma",
+        "code": "c04",
+        "sample": 15,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 98,
+        "band": "gamma",
+        "code": "c03",
+        "sample": 16,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 97,
+        "band": "delta",
+        "code": "c04",
+        "sample": 17,
+        "valid": false
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 95,
+        "band": "gamma",
+        "code": null,
+        "sample": 18,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 32,
+        "band": "gamma",
+        "code": "c04",
+        "sample": 19,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 42,
+        "band": "alpha",
+        "code": null,
+        "sample": 20,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 69,
+        "band": "gamma",
+        "code": null,
+        "sample": 21,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": null,
+        "band": "gamma",
+        "code": "c02",
+        "sample": 22,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 15,
+        "band": "alpha",
+        "code": "c04",
+        "sample": 23,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 95,
+        "band": "alpha",
+        "code": "c03",
+        "sample": 24,
+        "valid": true
+      },
+      "tx": "seed_0"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 84,
+        "band": "beta",
+        "code": "c04",
+        "sample": 25,
+        "valid": false
+      },
+      "tx": "seed_0"
+    },
+    {
+      "op": "commit",
+      "tx": "seed_0"
+    },
+    {
+      "op": "begin",
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": null,
+        "band": "alpha",
+        "code": "c04",
+        "sample": 26,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 66,
+        "band": "delta",
+        "code": "c02",
+        "sample": 27,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 46,
+        "band": "alpha",
+        "code": "c02",
+        "sample": 28,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 40,
+        "band": "delta",
+        "code": null,
+        "sample": 29,
+        "valid": false
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 47,
+        "band": "beta",
+        "code": null,
+        "sample": 30,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 37,
+        "band": "beta",
+        "code": "c03",
+        "sample": 31,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 47,
+        "band": "beta",
+        "code": "c02",
+        "sample": 32,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 100,
+        "band": "beta",
+        "code": null,
+        "sample": 33,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 53,
+        "band": "beta",
+        "code": "c01",
+        "sample": 34,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 55,
+        "band": "delta",
+        "code": "c04",
+        "sample": 35,
+        "valid": false
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": null,
+        "band": "alpha",
+        "code": null,
+        "sample": 36,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 95,
+        "band": "beta",
+        "code": "c03",
+        "sample": 37,
+        "valid": false
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 99,
+        "band": "alpha",
+        "code": "c01",
+        "sample": 38,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 68,
+        "band": "beta",
+        "code": "c01",
+        "sample": 39,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 14,
+        "band": "gamma",
+        "code": "c01",
+        "sample": 40,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 51,
+        "band": "beta",
+        "code": null,
+        "sample": 41,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 71,
+        "band": "delta",
+        "code": null,
+        "sample": 42,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 70,
+        "band": "alpha",
+        "code": "c04",
+        "sample": 43,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 3,
+        "band": "delta",
+        "code": "c03",
+        "sample": 44,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 49,
+        "band": "beta",
+        "code": "c02",
+        "sample": 45,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 61,
+        "band": "gamma",
+        "code": "c01",
+        "sample": 46,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 1,
+        "band": "alpha",
+        "code": "c04",
+        "sample": 47,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 69,
+        "band": "delta",
+        "code": null,
+        "sample": 48,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 30,
+        "band": "beta",
+        "code": null,
+        "sample": 49,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "insert_only": true,
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 92,
+        "band": "alpha",
+        "code": "c04",
+        "sample": 50,
+        "valid": true
+      },
+      "tx": "seed_1"
+    },
+    {
+      "op": "commit",
+      "tx": "seed_1"
+    },
+    {
+      "op": "create_index",
+      "spec": {
+        "column": "amplitude",
+        "name": "by_amplitude",
+        "relation": "spectra",
+        "unique": false
+      }
+    },
+    {
+      "label": "seed_head",
+      "op": "stats"
+    },
+    {
+      "label": "pinning_reader",
+      "op": "begin",
+      "read_only": true,
+      "tx": "reader"
+    },
+    {
+      "op": "begin",
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 901,
+        "band": "alpha",
+        "code": "c02",
+        "sample": 1,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 902,
+        "band": "delta",
+        "code": "c01",
+        "sample": 2,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 903,
+        "band": "beta",
+        "code": null,
+        "sample": 3,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 904,
+        "band": "gamma",
+        "code": "c03",
+        "sample": 4,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 905,
+        "band": "beta",
+        "code": "c04",
+        "sample": 5,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 906,
+        "band": "beta",
+        "code": "c04",
+        "sample": 6,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 907,
+        "band": "gamma",
+        "code": null,
+        "sample": 7,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 908,
+        "band": "gamma",
+        "code": "c04",
+        "sample": 8,
+        "valid": false
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 909,
+        "band": "gamma",
+        "code": "c03",
+        "sample": 9,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 910,
+        "band": "beta",
+        "code": "c02",
+        "sample": 10,
+        "valid": true
+      },
+      "tx": "wave1"
+    },
+    {
+      "op": "commit",
+      "tx": "wave1"
+    },
+    {
+      "op": "begin",
+      "tx": "wave2"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 1000,
+        "band": "alpha",
+        "code": "c02",
+        "sample": 1,
+        "valid": true
+      },
+      "tx": "wave2"
+    },
+    {
+      "op": "put",
+      "relation": "spectra",
+      "row": {
+        "amplitude": 1001,
+        "band": "delta",
+        "code": "c01",
+        "sample": 2,
+        "valid": true
+      },
+      "tx": "wave2"
+    },
+    {
+      "op": "commit",
+      "tx": "wave2"
+    },
+    {
+      "op": "begin",
+      "tx": "deaths"
+    },
+    {
+      "key_value": 40,
+      "op": "delete",
+      "relation": "spectra",
+      "tx": "deaths"
+    },
+    {
+      "key_value": 41,
+      "op": "delete",
+      "relation": "spectra",
+      "tx": "deaths"
+    },
+    {
+      "op": "commit",
+      "tx": "deaths"
+    },
+    {
+      "label": "pre_vacuum",
+      "op": "stats"
+    },
+    {
+      "horizon": "head",
+      "label": "pinned_vacuum",
+      "op": "vacuum"
+    },
+    {
+      "dims": [
+        "watermark",
+        "snapshot_isolation"
+      ],
+      "note": "pinned reader still sees pre-wave value",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "transaction": "reader",
+        "where": [
+          {
+            "column": "sample",
+            "op": "=",
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "dims": [
+        "watermark",
+        "low_selectivity"
+      ],
+      "note": "head sees post-wave values",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "label": "checkpoint_pinned",
+      "op": "checkpoint"
+    },
+    {
+      "label": "release_pin",
+      "op": "rollback",
+      "tx": "reader"
+    },
+    {
+      "horizon": "head",
+      "label": "advancing_vacuum",
+      "op": "vacuum"
+    },
+    {
+      "label": "post_vacuum",
+      "op": "stats"
+    },
+    {
+      "dims": [
+        "watermark",
+        "unqueryable"
+      ],
+      "note": "snapshot below watermark must be unavailable",
+      "op": "query",
+      "request": {
+        "at": 1,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "dims": [
+        "watermark",
+        "plan_fact"
+      ],
+      "note": "head query after retention and index rebuild",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "dims": [
+        "tombstone"
+      ],
+      "note": "tombstoned key absent at head",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "sample",
+            "op": "=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "dims": [
+        "tombstone",
+        "low_selectivity",
+        "plan_fact"
+      ],
+      "note": "wide range exposes tombstone resurrection",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "sample",
+            "op": "<=",
+            "value": 41
+          }
+        ]
+      }
+    },
+    {
+      "dims": [
+        "tombstone",
+        "aggregate"
+      ],
+      "note": "count over range containing tombstoned keys",
+      "op": "query",
+      "request": {
+        "aggregate": {
+          "column": "*",
+          "function": "count"
+        },
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "sample",
+            "op": "<=",
+            "value": 41
+          }
+        ]
+      }
+    },
+    {
+      "label": "checkpoint_final",
+      "op": "checkpoint"
+    },
+    {
+      "label": "restart_after_vacuum",
+      "op": "restart"
+    },
+    {
+      "dims": [
+        "watermark",
+        "restart",
+        "unqueryable"
+      ],
+      "note": "410 survives restart (watermark durable)",
+      "op": "query",
+      "request": {
+        "at": 1,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "dims": [
+        "watermark",
+        "restart"
+      ],
+      "note": "head survives restart",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "label": "after_restart",
+      "op": "stats"
+    }
+  ],
+  "scenario": "f4_watermark/main",
+  "seed": 5503
+}

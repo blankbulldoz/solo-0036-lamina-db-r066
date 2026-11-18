@@ -1,0 +1,1713 @@
+{
+  "facts": [
+    {
+      "body": {
+        "columns": [
+          {
+            "name": "sample",
+            "nullable": false,
+            "type": "int"
+          },
+          {
+            "name": "band",
+            "nullable": false,
+            "type": "text"
+          },
+          {
+            "name": "amplitude",
+            "nullable": true,
+            "type": "int"
+          },
+          {
+            "name": "valid",
+            "nullable": false,
+            "type": "bool"
+          },
+          {
+            "name": "code",
+            "nullable": true,
+            "type": "text"
+          }
+        ],
+        "created": 1,
+        "name": "spectra",
+        "primary": "sample"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "create_relation"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 1,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "seed_0"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 2,
+        "writes": 40
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 2,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "seed_1"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 3,
+        "writes": 40
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "column": "band",
+        "created": 4,
+        "name": "by_band",
+        "relation": "spectra",
+        "unique": false
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "create_index"
+    },
+    {
+      "body": {
+        "column": "code",
+        "created": 5,
+        "name": "by_code_unique",
+        "relation": "spectra",
+        "unique": true
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "create_index"
+    },
+    {
+      "body": {
+        "matched": 26,
+        "plan": {
+          "access": "index",
+          "candidates": 26,
+          "index": "by_band",
+          "residuals": 1,
+          "snapshot": 5
+        },
+        "rows": [
+          {
+            "amplitude": 58,
+            "band": "alpha",
+            "code": "u007",
+            "sample": 7,
+            "valid": false
+          },
+          {
+            "amplitude": 21,
+            "band": "alpha",
+            "code": "u008",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 31,
+            "band": "alpha",
+            "code": "u009",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 59,
+            "band": "alpha",
+            "code": "u013",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "u015",
+            "sample": 15,
+            "valid": true
+          },
+          {
+            "amplitude": 11,
+            "band": "alpha",
+            "code": "u018",
+            "sample": 18,
+            "valid": false
+          },
+          {
+            "amplitude": 66,
+            "band": "alpha",
+            "code": "u019",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "alpha",
+            "code": "u021",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 95,
+            "band": "alpha",
+            "code": "u027",
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "u029",
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 5,
+            "band": "alpha",
+            "code": "u030",
+            "sample": 30,
+            "valid": true
+          },
+          {
+            "amplitude": 21,
+            "band": "alpha",
+            "code": "u032",
+            "sample": 32,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "u037",
+            "sample": 37,
+            "valid": true
+          },
+          {
+            "amplitude": 51,
+            "band": "alpha",
+            "code": "u040",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 52,
+            "band": "alpha",
+            "code": "u041",
+            "sample": 41,
+            "valid": true
+          },
+          {
+            "amplitude": 23,
+            "band": "alpha",
+            "code": "u043",
+            "sample": 43,
+            "valid": true
+          },
+          {
+            "amplitude": 29,
+            "band": "alpha",
+            "code": "u048",
+            "sample": 48,
+            "valid": true
+          },
+          {
+            "amplitude": 75,
+            "band": "alpha",
+            "code": "u049",
+            "sample": 49,
+            "valid": true
+          },
+          {
+            "amplitude": 85,
+            "band": "alpha",
+            "code": "u051",
+            "sample": 51,
+            "valid": true
+          },
+          {
+            "amplitude": 21,
+            "band": "alpha",
+            "code": "u058",
+            "sample": 58,
+            "valid": false
+          },
+          {
+            "amplitude": 50,
+            "band": "alpha",
+            "code": "u063",
+            "sample": 63,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "u064",
+            "sample": 64,
+            "valid": false
+          },
+          {
+            "amplitude": 21,
+            "band": "alpha",
+            "code": "u066",
+            "sample": 66,
+            "valid": true
+          },
+          {
+            "amplitude": 15,
+            "band": "alpha",
+            "code": "u069",
+            "sample": 69,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "u071",
+            "sample": 71,
+            "valid": true
+          },
+          {
+            "amplitude": 38,
+            "band": "alpha",
+            "code": "u079",
+            "sample": 79,
+            "valid": true
+          }
+        ],
+        "scanned": 26,
+        "truncated": false
+      },
+      "dims": [
+        "high_duplicate"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "high duplicate text equality alpha",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "band",
+            "op": "=",
+            "value": "alpha"
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 29,
+        "plan": {
+          "access": "index",
+          "candidates": 29,
+          "index": "by_band",
+          "residuals": 1,
+          "snapshot": 5
+        },
+        "rows": [
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u002",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 47,
+            "band": "beta",
+            "code": "u005",
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 65,
+            "band": "beta",
+            "code": "u006",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 73,
+            "band": "beta",
+            "code": "u010",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 84,
+            "band": "beta",
+            "code": "u011",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "beta",
+            "code": "u012",
+            "sample": 12,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u016",
+            "sample": 16,
+            "valid": false
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u017",
+            "sample": 17,
+            "valid": false
+          },
+          {
+            "amplitude": 97,
+            "band": "beta",
+            "code": "u020",
+            "sample": 20,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u022",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 34,
+            "band": "beta",
+            "code": "u023",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 51,
+            "band": "beta",
+            "code": "u028",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 17,
+            "band": "beta",
+            "code": "u031",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 7,
+            "band": "beta",
+            "code": "u033",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "beta",
+            "code": "u034",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u035",
+            "sample": 35,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u038",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 45,
+            "band": "beta",
+            "code": "u053",
+            "sample": 53,
+            "valid": true
+          },
+          {
+            "amplitude": 82,
+            "band": "beta",
+            "code": "u059",
+            "sample": 59,
+            "valid": false
+          },
+          {
+            "amplitude": 3,
+            "band": "beta",
+            "code": "u062",
+            "sample": 62,
+            "valid": true
+          },
+          {
+            "amplitude": 31,
+            "band": "beta",
+            "code": "u065",
+            "sample": 65,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u067",
+            "sample": 67,
+            "valid": true
+          },
+          {
+            "amplitude": 15,
+            "band": "beta",
+            "code": "u070",
+            "sample": 70,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "beta",
+            "code": "u072",
+            "sample": 72,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "beta",
+            "code": "u074",
+            "sample": 74,
+            "valid": true
+          },
+          {
+            "amplitude": 62,
+            "band": "beta",
+            "code": "u075",
+            "sample": 75,
+            "valid": false
+          },
+          {
+            "amplitude": 66,
+            "band": "beta",
+            "code": "u076",
+            "sample": 76,
+            "valid": true
+          },
+          {
+            "amplitude": 32,
+            "band": "beta",
+            "code": "u077",
+            "sample": 77,
+            "valid": true
+          },
+          {
+            "amplitude": 38,
+            "band": "beta",
+            "code": "u080",
+            "sample": 80,
+            "valid": true
+          }
+        ],
+        "scanned": 29,
+        "truncated": false
+      },
+      "dims": [
+        "high_duplicate"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "high duplicate text equality beta",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "band",
+            "op": "=",
+            "value": "beta"
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 9,
+        "plan": {
+          "access": "index",
+          "candidates": 9,
+          "index": "by_band",
+          "residuals": 1,
+          "snapshot": 5
+        },
+        "rows": [
+          {
+            "amplitude": 98,
+            "band": "gamma",
+            "code": "u001",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "u003",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "gamma",
+            "code": "u014",
+            "sample": 14,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "u024",
+            "sample": 24,
+            "valid": false
+          },
+          {
+            "amplitude": 29,
+            "band": "gamma",
+            "code": "u044",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 14,
+            "band": "gamma",
+            "code": "u054",
+            "sample": 54,
+            "valid": true
+          },
+          {
+            "amplitude": 94,
+            "band": "gamma",
+            "code": "u061",
+            "sample": 61,
+            "valid": false
+          },
+          {
+            "amplitude": 75,
+            "band": "gamma",
+            "code": "u068",
+            "sample": 68,
+            "valid": false
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "u073",
+            "sample": 73,
+            "valid": true
+          }
+        ],
+        "scanned": 9,
+        "truncated": false
+      },
+      "dims": [
+        "high_duplicate"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "high duplicate text equality gamma",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "band",
+            "op": "=",
+            "value": "gamma"
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 16,
+        "plan": {
+          "access": "index",
+          "candidates": 16,
+          "index": "by_band",
+          "residuals": 1,
+          "snapshot": 5
+        },
+        "rows": [
+          {
+            "amplitude": 73,
+            "band": "delta",
+            "code": "u004",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "delta",
+            "code": "u025",
+            "sample": 25,
+            "valid": true
+          },
+          {
+            "amplitude": 99,
+            "band": "delta",
+            "code": "u026",
+            "sample": 26,
+            "valid": false
+          },
+          {
+            "amplitude": 63,
+            "band": "delta",
+            "code": "u036",
+            "sample": 36,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": "u039",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 81,
+            "band": "delta",
+            "code": "u042",
+            "sample": 42,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": "u045",
+            "sample": 45,
+            "valid": true
+          },
+          {
+            "amplitude": 26,
+            "band": "delta",
+            "code": "u046",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 31,
+            "band": "delta",
+            "code": "u047",
+            "sample": 47,
+            "valid": true
+          },
+          {
+            "amplitude": 58,
+            "band": "delta",
+            "code": "u050",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 35,
+            "band": "delta",
+            "code": "u052",
+            "sample": 52,
+            "valid": true
+          },
+          {
+            "amplitude": 25,
+            "band": "delta",
+            "code": "u055",
+            "sample": 55,
+            "valid": false
+          },
+          {
+            "amplitude": 47,
+            "band": "delta",
+            "code": "u056",
+            "sample": 56,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "delta",
+            "code": "u057",
+            "sample": 57,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": "u060",
+            "sample": 60,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "delta",
+            "code": "u078",
+            "sample": 78,
+            "valid": false
+          }
+        ],
+        "scanned": 16,
+        "truncated": false
+      },
+      "dims": [
+        "high_duplicate"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "high duplicate text equality delta",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "band",
+            "op": "=",
+            "value": "delta"
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 4,
+        "plan": {
+          "access": "index",
+          "candidates": 26,
+          "index": "by_band",
+          "residuals": 2,
+          "snapshot": 5
+        },
+        "rows": [
+          {
+            "amplitude": 58,
+            "band": "alpha",
+            "code": "u007",
+            "sample": 7,
+            "valid": false
+          },
+          {
+            "amplitude": 11,
+            "band": "alpha",
+            "code": "u018",
+            "sample": 18,
+            "valid": false
+          },
+          {
+            "amplitude": 21,
+            "band": "alpha",
+            "code": "u058",
+            "sample": 58,
+            "valid": false
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "u064",
+            "sample": 64,
+            "valid": false
+          }
+        ],
+        "scanned": 26,
+        "truncated": false
+      },
+      "dims": [
+        "high_duplicate",
+        "residual"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "duplicate text plus boolean residual",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "band",
+            "op": "=",
+            "value": "alpha"
+          },
+          {
+            "column": "valid",
+            "op": "=",
+            "value": false
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 5,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "swap"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 6,
+        "writes": 2
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "matched": 1,
+        "plan": {
+          "access": "index",
+          "candidates": 2,
+          "index": "by_code_unique",
+          "residuals": 1,
+          "snapshot": 6
+        },
+        "rows": [
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "u001",
+            "sample": 2,
+            "valid": true
+          }
+        ],
+        "scanned": 2,
+        "truncated": false
+      },
+      "dims": [
+        "unique",
+        "history"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "unique lookup after in-txn swap",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "code",
+            "op": "=",
+            "value": "u001"
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 6,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "racer_a"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 6,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "racer_b"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 7,
+        "writes": 1
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "error": {
+          "code": "conflict",
+          "message": "unique constraint by_code_unique violated"
+        }
+      },
+      "expect_conflict": true,
+      "http_status": 409,
+      "label": "unique_race_loser",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "matched": 1,
+        "plan": {
+          "access": "index",
+          "candidates": 1,
+          "index": "by_code_unique",
+          "residuals": 1,
+          "snapshot": 7
+        },
+        "rows": [
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "race",
+            "sample": 3,
+            "valid": true
+          }
+        ],
+        "scanned": 1,
+        "truncated": false
+      },
+      "dims": [
+        "unique",
+        "conflict"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "exactly one racer publishes the unique value",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "code",
+            "op": "=",
+            "value": "race"
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "active": [],
+        "commits_since_open": 4,
+        "conflicts_since_open": 1,
+        "history_base": 0,
+        "horizon": 0,
+        "index_entries": {
+          "by_band": 80,
+          "by_code_unique": 83
+        },
+        "journal_records": 7,
+        "keys": 80,
+        "queries_since_open": 7,
+        "recovered_tail_bytes": 0,
+        "sequence": 7,
+        "versions": 83
+      },
+      "http_status": 200,
+      "label": "post_race",
+      "op": "stats"
+    }
+  ],
+  "scenario": "f3_high_dup/main"
+}

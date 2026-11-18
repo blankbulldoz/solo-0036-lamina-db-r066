@@ -1,0 +1,780 @@
+{
+  "answers": [
+    {
+      "answer": {
+        "matched": 24,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 0,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 41,
+            "band": "beta",
+            "code": "c01",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 71,
+            "band": "beta",
+            "code": null,
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c04",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": null,
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "delta",
+            "code": "c02",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c04",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 11,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 100,
+            "band": "alpha",
+            "code": null,
+            "sample": 10,
+            "valid": true
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": true
+      },
+      "dims": [
+        "ordering",
+        "limit"
+      ],
+      "label": "",
+      "note": "primary-key order with limit truncation",
+      "request": {
+        "limit": 10,
+        "order": [
+          {
+            "column": "sample"
+          }
+        ],
+        "relation": "spectra"
+      }
+    },
+    {
+      "answer": {
+        "matched": 24,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 0,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 100,
+            "band": "alpha",
+            "code": null,
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "delta",
+            "code": null,
+            "sample": 23,
+            "valid": false
+          },
+          {
+            "amplitude": 83,
+            "band": "alpha",
+            "code": null,
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 77,
+            "band": "beta",
+            "code": "c04",
+            "sample": 12,
+            "valid": true
+          },
+          {
+            "amplitude": 76,
+            "band": "delta",
+            "code": "c03",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": 71,
+            "band": "beta",
+            "code": null,
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "delta",
+            "code": "c02",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 44,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 11,
+            "valid": false
+          },
+          {
+            "amplitude": 41,
+            "band": "beta",
+            "code": "c01",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 30,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 17,
+            "band": "beta",
+            "code": "c01",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 17,
+            "band": "delta",
+            "code": "c01",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": 11,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 7,
+            "band": "delta",
+            "code": "c01",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c02",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": "c01",
+            "sample": 20,
+            "valid": false
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": "c04",
+            "sample": 17,
+            "valid": false
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": "c04",
+            "sample": 15,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 14,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c04",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": null,
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c04",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 3,
+            "valid": true
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "ordering",
+        "null_semantics"
+      ],
+      "label": "",
+      "note": "nulls last on descending order, tie-break by PK",
+      "request": {
+        "order": [
+          {
+            "column": "amplitude",
+            "desc": true
+          },
+          {
+            "column": "sample",
+            "desc": true
+          }
+        ],
+        "relation": "spectra"
+      }
+    },
+    {
+      "answer": {
+        "matched": 2,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "band": "gamma",
+            "sample": 3
+          },
+          {
+            "band": "gamma",
+            "sample": 5
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "projection",
+        "high_duplicate"
+      ],
+      "label": "",
+      "note": "projection with text equality",
+      "request": {
+        "columns": [
+          "sample",
+          "band"
+        ],
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "band",
+            "op": "=",
+            "value": "gamma"
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 4,
+        "plan": {
+          "access": "index",
+          "candidates": 4,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 11,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 17,
+            "band": "delta",
+            "code": "c01",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": 7,
+            "band": "delta",
+            "code": "c01",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 17,
+            "band": "beta",
+            "code": "c01",
+            "sample": 21,
+            "valid": true
+          }
+        ],
+        "scanned": 4,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "range"
+      ],
+      "label": "",
+      "note": "range below threshold",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": "<",
+            "value": 25
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 15,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 41,
+            "band": "beta",
+            "code": "c01",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 71,
+            "band": "beta",
+            "code": null,
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "delta",
+            "code": "c02",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 11,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 100,
+            "band": "alpha",
+            "code": null,
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 44,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 11,
+            "valid": false
+          },
+          {
+            "amplitude": 77,
+            "band": "beta",
+            "code": "c04",
+            "sample": 12,
+            "valid": true
+          },
+          {
+            "amplitude": 17,
+            "band": "delta",
+            "code": "c01",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "alpha",
+            "code": null,
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 7,
+            "band": "delta",
+            "code": "c01",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 30,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 17,
+            "band": "beta",
+            "code": "c01",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "delta",
+            "code": null,
+            "sample": 23,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "delta",
+            "code": "c03",
+            "sample": 24,
+            "valid": true
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "plan_fact"
+      ],
+      "label": "",
+      "note": "inequality predicate never uses index",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": "!=",
+            "value": 50
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 24,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 0,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "count": 24
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "aggregate"
+      ],
+      "label": "",
+      "note": "count star",
+      "request": {
+        "aggregate": {
+          "column": "*",
+          "function": "count"
+        },
+        "relation": "spectra"
+      }
+    },
+    {
+      "answer": {
+        "matched": 24,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 0,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "sum": 808
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "aggregate",
+        "null_semantics"
+      ],
+      "label": "",
+      "note": "sum with nulls returns null only when empty",
+      "request": {
+        "aggregate": {
+          "column": "amplitude",
+          "function": "sum"
+        },
+        "relation": "spectra"
+      }
+    }
+  ],
+  "commit_outcomes": [
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 2
+    }
+  ],
+  "family": "f0_smoke",
+  "final_stats": {
+    "active": [],
+    "horizon": 0,
+    "index_entries": {
+      "by_amplitude": 15
+    },
+    "keys": 24,
+    "sequence": 3,
+    "versions": 24
+  },
+  "head_horizon": 0,
+  "head_sequence": 3,
+  "provenance": {
+    "derived_by": "corpus/tools/reference_model.py",
+    "independence": "no laminad binary, no run observations consulted",
+    "source_script": "main.script.json"
+  },
+  "scenario": "f0_smoke/main",
+  "sql_answers": [
+    {
+      "answer": {
+        "matched": 11,
+        "plan": {
+          "access": "index",
+          "candidates": 11,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 100,
+            "sample": 10
+          },
+          {
+            "amplitude": 98,
+            "sample": 23
+          },
+          {
+            "amplitude": 83,
+            "sample": 16
+          },
+          {
+            "amplitude": 77,
+            "sample": 12
+          },
+          {
+            "amplitude": 76,
+            "sample": 24
+          }
+        ],
+        "scanned": 11,
+        "status": "ok",
+        "truncated": true
+      },
+      "request": {
+        "columns": [
+          "sample",
+          "amplitude"
+        ],
+        "limit": 5,
+        "order": [
+          {
+            "column": "amplitude",
+            "desc": true
+          }
+        ],
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 20
+          }
+        ]
+      },
+      "sql": "SELECT sample, amplitude FROM spectra WHERE amplitude >= 20 ORDER BY amplitude DESC LIMIT 5;"
+    },
+    {
+      "answer": {
+        "matched": 20,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "count": 20
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": false
+      },
+      "request": {
+        "aggregate": {
+          "column": "*",
+          "function": "count"
+        },
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "valid",
+            "op": "=",
+            "value": true
+          }
+        ]
+      },
+      "sql": "SELECT count(*) FROM spectra WHERE valid = true;"
+    },
+    {
+      "answer": {
+        "matched": 24,
+        "plan": {
+          "access": "scan",
+          "candidates": 24,
+          "index": "",
+          "residuals": 0,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "sum": 808
+          }
+        ],
+        "scanned": 24,
+        "status": "ok",
+        "truncated": false
+      },
+      "request": {
+        "aggregate": {
+          "column": "amplitude",
+          "function": "sum"
+        },
+        "relation": "spectra"
+      },
+      "sql": "SELECT sum(amplitude) FROM spectra;"
+    }
+  ],
+  "stats_facts": [],
+  "vacuum_facts": []
+}

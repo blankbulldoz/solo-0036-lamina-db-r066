@@ -1,0 +1,3415 @@
+{
+  "facts": [
+    {
+      "body": {
+        "columns": [
+          {
+            "name": "sample",
+            "nullable": false,
+            "type": "int"
+          },
+          {
+            "name": "band",
+            "nullable": false,
+            "type": "text"
+          },
+          {
+            "name": "amplitude",
+            "nullable": true,
+            "type": "int"
+          },
+          {
+            "name": "valid",
+            "nullable": false,
+            "type": "bool"
+          },
+          {
+            "name": "code",
+            "nullable": true,
+            "type": "text"
+          }
+        ],
+        "created": 1,
+        "name": "spectra",
+        "primary": "sample"
+      },
+      "http_status": 201,
+      "label": "ddl",
+      "op": "create_relation"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 1,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "seed_0"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 2,
+        "writes": 30
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 2,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "seed_1"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 3,
+        "writes": 30
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "active": [],
+        "commits_since_open": 2,
+        "conflicts_since_open": 0,
+        "history_base": 0,
+        "horizon": 0,
+        "index_entries": {},
+        "journal_records": 3,
+        "keys": 60,
+        "queries_since_open": 0,
+        "recovered_tail_bytes": 0,
+        "sequence": 3,
+        "versions": 60
+      },
+      "http_status": 200,
+      "label": "after_seed",
+      "op": "stats"
+    },
+    {
+      "body": {
+        "matched": 33,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "residuals": 1,
+          "snapshot": 3
+        },
+        "rows": [
+          {
+            "amplitude": 52,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "beta",
+            "code": null,
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 77,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 85,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 59,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": false
+          },
+          {
+            "amplitude": 75,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": 64,
+            "band": "delta",
+            "code": null,
+            "sample": 14,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "delta",
+            "code": "c01",
+            "sample": 15,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "delta",
+            "code": "c01",
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 54,
+            "band": "beta",
+            "code": "c01",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "delta",
+            "code": "c03",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 88,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 24,
+            "valid": false
+          },
+          {
+            "amplitude": 93,
+            "band": "delta",
+            "code": "c04",
+            "sample": 25,
+            "valid": false
+          },
+          {
+            "amplitude": 97,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 77,
+            "band": "beta",
+            "code": "c04",
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 45,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "beta",
+            "code": "c01",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "beta",
+            "code": "c01",
+            "sample": 35,
+            "valid": true
+          },
+          {
+            "amplitude": 85,
+            "band": "delta",
+            "code": "c02",
+            "sample": 36,
+            "valid": false
+          },
+          {
+            "amplitude": 54,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 37,
+            "valid": true
+          },
+          {
+            "amplitude": 73,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "beta",
+            "code": "c02",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 58,
+            "band": "delta",
+            "code": "c01",
+            "sample": 48,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 40,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 53,
+            "valid": true
+          },
+          {
+            "amplitude": 100,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 54,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 56,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "delta",
+            "code": null,
+            "sample": 57,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": null,
+            "sample": 59,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "history"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "f1-b early landmark",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "sequence": 3
+      },
+      "http_status": 200,
+      "label": "landmark_early",
+      "op": "checkpoint"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 3,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "broad_0"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 4,
+        "writes": 12
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 4,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "broad_1"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 5,
+        "writes": 12
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 5,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "broad_2"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 6,
+        "writes": 12
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 6,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "broad_3"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 7,
+        "writes": 12
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 7,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "broad_4"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 8,
+        "writes": 12
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 8,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "broad_5"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 9,
+        "writes": 12
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "id": "<server-tx-id>",
+        "read_only": false,
+        "snapshot": 9,
+        "started": "<server-timestamp>"
+      },
+      "http_status": 201,
+      "label": "",
+      "op": "begin",
+      "tx_alias": "converge"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "state": "staged"
+      },
+      "http_status": 200,
+      "label": "",
+      "op": "put"
+    },
+    {
+      "body": {
+        "sequence": 10,
+        "writes": 60
+      },
+      "expect_conflict": false,
+      "http_status": 200,
+      "label": "head_convergence",
+      "op": "commit"
+    },
+    {
+      "body": {
+        "column": "amplitude",
+        "created": 11,
+        "name": "by_amplitude",
+        "relation": "spectra",
+        "unique": false
+      },
+      "http_status": 201,
+      "label": "index_after_churn",
+      "op": "create_index"
+    },
+    {
+      "body": {
+        "matched": 41,
+        "plan": {
+          "access": "index",
+          "candidates": 54,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "rows": [
+          {
+            "amplitude": 45,
+            "band": "beta",
+            "code": "c03",
+            "sample": 1,
+            "valid": false
+          },
+          {
+            "amplitude": 78,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c01",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 6,
+            "valid": false
+          },
+          {
+            "amplitude": 81,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "beta",
+            "code": null,
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c04",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "delta",
+            "code": "c02",
+            "sample": 13,
+            "valid": false
+          },
+          {
+            "amplitude": 96,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 14,
+            "valid": false
+          },
+          {
+            "amplitude": 74,
+            "band": "delta",
+            "code": null,
+            "sample": 17,
+            "valid": false
+          },
+          {
+            "amplitude": 98,
+            "band": "beta",
+            "code": "c04",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 56,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": false
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": "c02",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 62,
+            "band": "beta",
+            "code": "c03",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "beta",
+            "code": "c02",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c01",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": 79,
+            "band": "delta",
+            "code": "c03",
+            "sample": 26,
+            "valid": false
+          },
+          {
+            "amplitude": 99,
+            "band": "beta",
+            "code": null,
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "alpha",
+            "code": null,
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "beta",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c02",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": 46,
+            "band": "delta",
+            "code": null,
+            "sample": 35,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 97,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 41,
+            "valid": true
+          },
+          {
+            "amplitude": 94,
+            "band": "alpha",
+            "code": null,
+            "sample": 42,
+            "valid": true
+          },
+          {
+            "amplitude": 43,
+            "band": "alpha",
+            "code": null,
+            "sample": 43,
+            "valid": true
+          },
+          {
+            "amplitude": 86,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 45,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "beta",
+            "code": "c03",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 47,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 48,
+            "valid": false
+          },
+          {
+            "amplitude": 73,
+            "band": "beta",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 51,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "gamma",
+            "code": null,
+            "sample": 55,
+            "valid": false
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 58,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "delta",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 54,
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "low_selectivity"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "f1-b head wide predicate",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 28,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "residuals": 1,
+          "snapshot": 5
+        },
+        "rows": [
+          {
+            "amplitude": 74,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "beta",
+            "code": null,
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 65,
+            "band": "alpha",
+            "code": null,
+            "sample": 5,
+            "valid": false
+          },
+          {
+            "amplitude": 77,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 64,
+            "band": "delta",
+            "code": null,
+            "sample": 14,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "delta",
+            "code": "c01",
+            "sample": 15,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "delta",
+            "code": "c01",
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 54,
+            "band": "beta",
+            "code": "c01",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "delta",
+            "code": "c03",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 88,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 24,
+            "valid": false
+          },
+          {
+            "amplitude": 93,
+            "band": "delta",
+            "code": "c04",
+            "sample": 25,
+            "valid": false
+          },
+          {
+            "amplitude": 77,
+            "band": "beta",
+            "code": "c04",
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 52,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "beta",
+            "code": "c01",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 54,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 37,
+            "valid": true
+          },
+          {
+            "amplitude": 73,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 42,
+            "band": "delta",
+            "code": "c01",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "beta",
+            "code": "c02",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 58,
+            "band": "delta",
+            "code": "c01",
+            "sample": 48,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 40,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 53,
+            "valid": true
+          },
+          {
+            "amplitude": 100,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 54,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "delta",
+            "code": null,
+            "sample": 57,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": null,
+            "sample": 59,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "history"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "f1-b mid-history wide predicate",
+      "op": "query",
+      "request": {
+        "at": 5,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 0,
+        "plan": {
+          "access": "index",
+          "candidates": 1,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "rows": [],
+        "scanned": 1,
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "high_duplicate"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "f1-b head equality",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": "=",
+            "value": 42
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 46,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "rows": [
+          {
+            "amplitude": 78,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c01",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 18,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": 37,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 81,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c04",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 16,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 15,
+            "valid": true
+          },
+          {
+            "amplitude": 22,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "beta",
+            "code": "c04",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": "c02",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 62,
+            "band": "beta",
+            "code": "c03",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "beta",
+            "code": "c02",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c01",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": null,
+            "sample": 25,
+            "valid": true
+          },
+          {
+            "amplitude": 99,
+            "band": "beta",
+            "code": null,
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "alpha",
+            "code": null,
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 30,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "beta",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c03",
+            "sample": 32,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c02",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 36,
+            "valid": true
+          },
+          {
+            "amplitude": 34,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 37,
+            "valid": true
+          },
+          {
+            "amplitude": 29,
+            "band": "delta",
+            "code": "c03",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 76,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 97,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 41,
+            "valid": true
+          },
+          {
+            "amplitude": 94,
+            "band": "alpha",
+            "code": null,
+            "sample": 42,
+            "valid": true
+          },
+          {
+            "amplitude": 43,
+            "band": "alpha",
+            "code": null,
+            "sample": 43,
+            "valid": true
+          },
+          {
+            "amplitude": 86,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 45,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "beta",
+            "code": "c03",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 47,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c01",
+            "sample": 49,
+            "valid": true
+          },
+          {
+            "amplitude": 73,
+            "band": "beta",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 51,
+            "valid": true
+          },
+          {
+            "amplitude": 15,
+            "band": "gamma",
+            "code": null,
+            "sample": 53,
+            "valid": true
+          },
+          {
+            "amplitude": 5,
+            "band": "delta",
+            "code": "c01",
+            "sample": 54,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 56,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": null,
+            "sample": 57,
+            "valid": true
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 58,
+            "valid": true
+          },
+          {
+            "amplitude": 35,
+            "band": "beta",
+            "code": null,
+            "sample": 59,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "delta",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "truncated": false
+      },
+      "dims": [
+        "high_duplicate",
+        "low_selectivity"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "f1-b boolean high duplicate",
+      "op": "query",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "valid",
+            "op": "=",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 41,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "rows": [
+          {
+            "amplitude": 45,
+            "band": "beta",
+            "code": "c03",
+            "sample": 1,
+            "valid": false
+          },
+          {
+            "amplitude": 78,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c01",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 6,
+            "valid": false
+          },
+          {
+            "amplitude": 81,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "beta",
+            "code": null,
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c04",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "delta",
+            "code": "c02",
+            "sample": 13,
+            "valid": false
+          },
+          {
+            "amplitude": 96,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 14,
+            "valid": false
+          },
+          {
+            "amplitude": 74,
+            "band": "delta",
+            "code": null,
+            "sample": 17,
+            "valid": false
+          },
+          {
+            "amplitude": 98,
+            "band": "beta",
+            "code": "c04",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 56,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": false
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": "c02",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 62,
+            "band": "beta",
+            "code": "c03",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "beta",
+            "code": "c02",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c01",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": 79,
+            "band": "delta",
+            "code": "c03",
+            "sample": 26,
+            "valid": false
+          },
+          {
+            "amplitude": 99,
+            "band": "beta",
+            "code": null,
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "alpha",
+            "code": null,
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "beta",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c02",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": 46,
+            "band": "delta",
+            "code": null,
+            "sample": 35,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 97,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 41,
+            "valid": true
+          },
+          {
+            "amplitude": 94,
+            "band": "alpha",
+            "code": null,
+            "sample": 42,
+            "valid": true
+          },
+          {
+            "amplitude": 43,
+            "band": "alpha",
+            "code": null,
+            "sample": 43,
+            "valid": true
+          },
+          {
+            "amplitude": 86,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 45,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "beta",
+            "code": "c03",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 47,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 48,
+            "valid": false
+          },
+          {
+            "amplitude": 73,
+            "band": "beta",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 51,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "gamma",
+            "code": null,
+            "sample": 55,
+            "valid": false
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 58,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "delta",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "truncated": false
+      },
+      "dims": [
+        "plan_fact"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "f1-b scan counterpart",
+      "op": "query",
+      "request": {
+        "force_scan": true,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "body": {
+        "matched": 60,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "residuals": 0,
+          "snapshot": 11
+        },
+        "rows": [
+          {
+            "amplitude": 99,
+            "sample": 27
+          },
+          {
+            "amplitude": 98,
+            "sample": 18
+          },
+          {
+            "amplitude": 98,
+            "sample": 51
+          },
+          {
+            "amplitude": 97,
+            "sample": 40
+          },
+          {
+            "amplitude": 96,
+            "sample": 14
+          }
+        ],
+        "scanned": 60,
+        "truncated": true
+      },
+      "dims": [
+        "ordering"
+      ],
+      "http_status": 200,
+      "label": "",
+      "note": "f1-b order+limit",
+      "op": "query",
+      "request": {
+        "columns": [
+          "sample",
+          "amplitude"
+        ],
+        "limit": 5,
+        "order": [
+          {
+            "column": "amplitude",
+            "desc": true
+          }
+        ],
+        "relation": "spectra"
+      }
+    },
+    {
+      "body": {
+        "active": [],
+        "commits_since_open": 9,
+        "conflicts_since_open": 0,
+        "history_base": 0,
+        "horizon": 0,
+        "index_entries": {
+          "by_amplitude": 157
+        },
+        "journal_records": 11,
+        "keys": 60,
+        "queries_since_open": 7,
+        "recovered_tail_bytes": 0,
+        "sequence": 11,
+        "versions": 192
+      },
+      "http_status": 200,
+      "label": "head",
+      "op": "stats"
+    }
+  ],
+  "scenario": "f1_drift_pair/b"
+}

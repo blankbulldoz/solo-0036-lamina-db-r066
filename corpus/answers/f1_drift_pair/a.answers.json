@@ -1,0 +1,1740 @@
+{
+  "answers": [
+    {
+      "answer": {
+        "matched": 33,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 3
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 52,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "beta",
+            "code": null,
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 77,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 85,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 59,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": false
+          },
+          {
+            "amplitude": 75,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": 64,
+            "band": "delta",
+            "code": null,
+            "sample": 14,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "delta",
+            "code": "c01",
+            "sample": 15,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "delta",
+            "code": "c01",
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 54,
+            "band": "beta",
+            "code": "c01",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "delta",
+            "code": "c03",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 88,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 24,
+            "valid": false
+          },
+          {
+            "amplitude": 93,
+            "band": "delta",
+            "code": "c04",
+            "sample": 25,
+            "valid": false
+          },
+          {
+            "amplitude": 97,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 77,
+            "band": "beta",
+            "code": "c04",
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 45,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "beta",
+            "code": "c01",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "beta",
+            "code": "c01",
+            "sample": 35,
+            "valid": true
+          },
+          {
+            "amplitude": 85,
+            "band": "delta",
+            "code": "c02",
+            "sample": 36,
+            "valid": false
+          },
+          {
+            "amplitude": 54,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 37,
+            "valid": true
+          },
+          {
+            "amplitude": 73,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "beta",
+            "code": "c02",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 58,
+            "band": "delta",
+            "code": "c01",
+            "sample": 48,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 40,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 53,
+            "valid": true
+          },
+          {
+            "amplitude": 100,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 54,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 56,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "delta",
+            "code": null,
+            "sample": 57,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": null,
+            "sample": 59,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "history"
+      ],
+      "label": "",
+      "note": "f1-a early landmark",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 41,
+        "plan": {
+          "access": "index",
+          "candidates": 55,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 45,
+            "band": "beta",
+            "code": "c03",
+            "sample": 1,
+            "valid": false
+          },
+          {
+            "amplitude": 78,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c01",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 6,
+            "valid": false
+          },
+          {
+            "amplitude": 81,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "beta",
+            "code": null,
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c04",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "delta",
+            "code": "c02",
+            "sample": 13,
+            "valid": false
+          },
+          {
+            "amplitude": 96,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 14,
+            "valid": false
+          },
+          {
+            "amplitude": 74,
+            "band": "delta",
+            "code": null,
+            "sample": 17,
+            "valid": false
+          },
+          {
+            "amplitude": 98,
+            "band": "beta",
+            "code": "c04",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 56,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": false
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": "c02",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 62,
+            "band": "beta",
+            "code": "c03",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "beta",
+            "code": "c02",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c01",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": 79,
+            "band": "delta",
+            "code": "c03",
+            "sample": 26,
+            "valid": false
+          },
+          {
+            "amplitude": 99,
+            "band": "beta",
+            "code": null,
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "alpha",
+            "code": null,
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "beta",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c02",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": 46,
+            "band": "delta",
+            "code": null,
+            "sample": 35,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 97,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 41,
+            "valid": true
+          },
+          {
+            "amplitude": 94,
+            "band": "alpha",
+            "code": null,
+            "sample": 42,
+            "valid": true
+          },
+          {
+            "amplitude": 43,
+            "band": "alpha",
+            "code": null,
+            "sample": 43,
+            "valid": true
+          },
+          {
+            "amplitude": 86,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 45,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "beta",
+            "code": "c03",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 47,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 48,
+            "valid": false
+          },
+          {
+            "amplitude": 73,
+            "band": "beta",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 51,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "gamma",
+            "code": null,
+            "sample": 55,
+            "valid": false
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 58,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "delta",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 55,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "low_selectivity"
+      ],
+      "label": "",
+      "note": "f1-a head wide predicate",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 35,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 5
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 52,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 1,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "beta",
+            "code": null,
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 77,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 6,
+            "valid": true
+          },
+          {
+            "amplitude": 40,
+            "band": "beta",
+            "code": "c01",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 85,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 8,
+            "valid": true
+          },
+          {
+            "amplitude": 59,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": false
+          },
+          {
+            "amplitude": 48,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 12,
+            "valid": true
+          },
+          {
+            "amplitude": 75,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 13,
+            "valid": true
+          },
+          {
+            "amplitude": 64,
+            "band": "delta",
+            "code": null,
+            "sample": 14,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "delta",
+            "code": "c01",
+            "sample": 15,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "delta",
+            "code": "c01",
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 80,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "beta",
+            "code": "c01",
+            "sample": 19,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "delta",
+            "code": "c03",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 88,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 24,
+            "valid": false
+          },
+          {
+            "amplitude": 107,
+            "band": "delta",
+            "code": "c04",
+            "sample": 25,
+            "valid": false
+          },
+          {
+            "amplitude": 97,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 77,
+            "band": "beta",
+            "code": "c04",
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 45,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 82,
+            "band": "beta",
+            "code": "c01",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "beta",
+            "code": "c01",
+            "sample": 35,
+            "valid": true
+          },
+          {
+            "amplitude": 85,
+            "band": "delta",
+            "code": "c02",
+            "sample": 36,
+            "valid": false
+          },
+          {
+            "amplitude": 54,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 37,
+            "valid": true
+          },
+          {
+            "amplitude": 73,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "beta",
+            "code": "c02",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 58,
+            "band": "delta",
+            "code": "c01",
+            "sample": 48,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 40,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 53,
+            "valid": true
+          },
+          {
+            "amplitude": 100,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 54,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 56,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "delta",
+            "code": null,
+            "sample": 57,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": null,
+            "sample": 59,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "history"
+      ],
+      "label": "",
+      "note": "f1-a mid-history wide predicate",
+      "request": {
+        "at": 5,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 0,
+        "plan": {
+          "access": "index",
+          "candidates": 2,
+          "index": "by_amplitude",
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "queryable": true,
+        "rows": [],
+        "scanned": 2,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "trajectory",
+        "high_duplicate"
+      ],
+      "label": "",
+      "note": "f1-a head equality",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": "=",
+            "value": 42
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 46,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 78,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c01",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 18,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 4,
+            "valid": true
+          },
+          {
+            "amplitude": 37,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 5,
+            "valid": true
+          },
+          {
+            "amplitude": 81,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c04",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 16,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 15,
+            "valid": true
+          },
+          {
+            "amplitude": 22,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 16,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "beta",
+            "code": "c04",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": "c02",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 62,
+            "band": "beta",
+            "code": "c03",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "beta",
+            "code": "c02",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c01",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "delta",
+            "code": null,
+            "sample": 25,
+            "valid": true
+          },
+          {
+            "amplitude": 99,
+            "band": "beta",
+            "code": null,
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "alpha",
+            "code": null,
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 30,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "beta",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c03",
+            "sample": 32,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c02",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 36,
+            "valid": true
+          },
+          {
+            "amplitude": 34,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 37,
+            "valid": true
+          },
+          {
+            "amplitude": 29,
+            "band": "delta",
+            "code": "c03",
+            "sample": 38,
+            "valid": true
+          },
+          {
+            "amplitude": 76,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 97,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 41,
+            "valid": true
+          },
+          {
+            "amplitude": 94,
+            "band": "alpha",
+            "code": null,
+            "sample": 42,
+            "valid": true
+          },
+          {
+            "amplitude": 43,
+            "band": "alpha",
+            "code": null,
+            "sample": 43,
+            "valid": true
+          },
+          {
+            "amplitude": 86,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 45,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "beta",
+            "code": "c03",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 47,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "beta",
+            "code": "c01",
+            "sample": 49,
+            "valid": true
+          },
+          {
+            "amplitude": 73,
+            "band": "beta",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 51,
+            "valid": true
+          },
+          {
+            "amplitude": 15,
+            "band": "gamma",
+            "code": null,
+            "sample": 53,
+            "valid": true
+          },
+          {
+            "amplitude": 5,
+            "band": "delta",
+            "code": "c01",
+            "sample": 54,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "gamma",
+            "code": "c03",
+            "sample": 56,
+            "valid": true
+          },
+          {
+            "amplitude": null,
+            "band": "alpha",
+            "code": null,
+            "sample": 57,
+            "valid": true
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 58,
+            "valid": true
+          },
+          {
+            "amplitude": 35,
+            "band": "beta",
+            "code": null,
+            "sample": 59,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "delta",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "high_duplicate",
+        "low_selectivity"
+      ],
+      "label": "",
+      "note": "f1-a boolean high duplicate",
+      "request": {
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "valid",
+            "op": "=",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 41,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "index": "",
+          "residuals": 1,
+          "snapshot": 11
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 45,
+            "band": "beta",
+            "code": "c03",
+            "sample": 1,
+            "valid": false
+          },
+          {
+            "amplitude": 78,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 2,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c01",
+            "sample": 3,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 6,
+            "valid": false
+          },
+          {
+            "amplitude": 81,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 7,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "beta",
+            "code": null,
+            "sample": 8,
+            "valid": false
+          },
+          {
+            "amplitude": 63,
+            "band": "beta",
+            "code": "c04",
+            "sample": 9,
+            "valid": true
+          },
+          {
+            "amplitude": 87,
+            "band": "beta",
+            "code": "c01",
+            "sample": 10,
+            "valid": true
+          },
+          {
+            "amplitude": 41,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 11,
+            "valid": true
+          },
+          {
+            "amplitude": 90,
+            "band": "delta",
+            "code": "c02",
+            "sample": 13,
+            "valid": false
+          },
+          {
+            "amplitude": 96,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 14,
+            "valid": false
+          },
+          {
+            "amplitude": 74,
+            "band": "delta",
+            "code": null,
+            "sample": 17,
+            "valid": false
+          },
+          {
+            "amplitude": 98,
+            "band": "beta",
+            "code": "c04",
+            "sample": 18,
+            "valid": true
+          },
+          {
+            "amplitude": 56,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 20,
+            "valid": false
+          },
+          {
+            "amplitude": 49,
+            "band": "beta",
+            "code": "c02",
+            "sample": 21,
+            "valid": true
+          },
+          {
+            "amplitude": 62,
+            "band": "beta",
+            "code": "c03",
+            "sample": 22,
+            "valid": true
+          },
+          {
+            "amplitude": 91,
+            "band": "beta",
+            "code": "c02",
+            "sample": 23,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c01",
+            "sample": 24,
+            "valid": true
+          },
+          {
+            "amplitude": 79,
+            "band": "delta",
+            "code": "c03",
+            "sample": 26,
+            "valid": false
+          },
+          {
+            "amplitude": 99,
+            "band": "beta",
+            "code": null,
+            "sample": 27,
+            "valid": true
+          },
+          {
+            "amplitude": 50,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 28,
+            "valid": true
+          },
+          {
+            "amplitude": 63,
+            "band": "alpha",
+            "code": null,
+            "sample": 29,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "beta",
+            "code": "c04",
+            "sample": 31,
+            "valid": true
+          },
+          {
+            "amplitude": 61,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 33,
+            "valid": true
+          },
+          {
+            "amplitude": 49,
+            "band": "delta",
+            "code": "c02",
+            "sample": 34,
+            "valid": true
+          },
+          {
+            "amplitude": 46,
+            "band": "delta",
+            "code": null,
+            "sample": 35,
+            "valid": false
+          },
+          {
+            "amplitude": 76,
+            "band": "alpha",
+            "code": "c03",
+            "sample": 39,
+            "valid": true
+          },
+          {
+            "amplitude": 97,
+            "band": "alpha",
+            "code": "c04",
+            "sample": 40,
+            "valid": true
+          },
+          {
+            "amplitude": 83,
+            "band": "delta",
+            "code": "c01",
+            "sample": 41,
+            "valid": true
+          },
+          {
+            "amplitude": 94,
+            "band": "alpha",
+            "code": null,
+            "sample": 42,
+            "valid": true
+          },
+          {
+            "amplitude": 43,
+            "band": "alpha",
+            "code": null,
+            "sample": 43,
+            "valid": true
+          },
+          {
+            "amplitude": 86,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 44,
+            "valid": true
+          },
+          {
+            "amplitude": 68,
+            "band": "alpha",
+            "code": "c01",
+            "sample": 45,
+            "valid": true
+          },
+          {
+            "amplitude": 74,
+            "band": "beta",
+            "code": "c03",
+            "sample": 46,
+            "valid": true
+          },
+          {
+            "amplitude": 69,
+            "band": "gamma",
+            "code": "c04",
+            "sample": 47,
+            "valid": true
+          },
+          {
+            "amplitude": 78,
+            "band": "gamma",
+            "code": "c01",
+            "sample": 48,
+            "valid": false
+          },
+          {
+            "amplitude": 73,
+            "band": "beta",
+            "code": "c02",
+            "sample": 50,
+            "valid": true
+          },
+          {
+            "amplitude": 98,
+            "band": "alpha",
+            "code": "c02",
+            "sample": 51,
+            "valid": true
+          },
+          {
+            "amplitude": 48,
+            "band": "gamma",
+            "code": null,
+            "sample": 55,
+            "valid": false
+          },
+          {
+            "amplitude": 55,
+            "band": "gamma",
+            "code": "c02",
+            "sample": 58,
+            "valid": true
+          },
+          {
+            "amplitude": 92,
+            "band": "delta",
+            "code": "c04",
+            "sample": 60,
+            "valid": true
+          }
+        ],
+        "scanned": 60,
+        "status": "ok",
+        "truncated": false
+      },
+      "dims": [
+        "plan_fact"
+      ],
+      "label": "",
+      "note": "f1-a scan counterpart",
+      "request": {
+        "force_scan": true,
+        "relation": "spectra",
+        "where": [
+          {
+            "column": "amplitude",
+            "op": ">=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "answer": {
+        "matched": 60,
+        "plan": {
+          "access": "scan",
+          "candidates": 60,
+          "index": "",
+          "residuals": 0,
+          "snapshot": 11
+        },
+        "queryable": true,
+        "rows": [
+          {
+            "amplitude": 99,
+            "sample": 27
+          },
+          {
+            "amplitude": 98,
+            "sample": 18
+          },
+          {
+            "amplitude": 98,
+            "sample": 51
+          },
+          {
+            "amplitude": 97,
+            "sample": 40
+          },
+          {
+            "amplitude": 96,
+            "sample": 14
+          }
+        ],
+        "scanned": 60,
+        "status": "ok",
+        "truncated": true
+      },
+      "dims": [
+        "ordering"
+      ],
+      "label": "",
+      "note": "f1-a order+limit",
+      "request": {
+        "columns": [
+          "sample",
+          "amplitude"
+        ],
+        "limit": 5,
+        "order": [
+          {
+            "column": "amplitude",
+            "desc": true
+          }
+        ],
+        "relation": "spectra"
+      }
+    }
+  ],
+  "commit_outcomes": [
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 2
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 3
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 4
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 5
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 6
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 7
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 8
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 9
+    },
+    {
+      "conflict": false,
+      "published": true,
+      "reason": "",
+      "sequence": 10
+    }
+  ],
+  "family": "f1_drift_pair",
+  "final_stats": {
+    "active": [],
+    "horizon": 0,
+    "index_entries": {
+      "by_amplitude": 148
+    },
+    "keys": 60,
+    "sequence": 11,
+    "versions": 168
+  },
+  "head_horizon": 0,
+  "head_sequence": 11,
+  "provenance": {
+    "derived_by": "corpus/tools/reference_model.py",
+    "independence": "no laminad binary, no run observations consulted",
+    "source_script": "a.script.json"
+  },
+  "scenario": "f1_drift_pair/a",
+  "sql_answers": [],
+  "stats_facts": [
+    {
+      "label": "after_seed",
+      "stats": {
+        "active": [],
+        "horizon": 0,
+        "index_entries": {},
+        "keys": 60,
+        "sequence": 3,
+        "versions": 60
+      }
+    },
+    {
+      "label": "head",
+      "stats": {
+        "active": [],
+        "horizon": 0,
+        "index_entries": {
+          "by_amplitude": 148
+        },
+        "keys": 60,
+        "sequence": 11,
+        "versions": 168
+      }
+    }
+  ],
+  "vacuum_facts": []
+}
